@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
 
 	<listener>
-		<listener-class>org.axelor.services.MyGuiceServletConfig</listener-class>
+		<listener-class>org.axelor.services.MyGuiceJpaConfig</listener-class>
 	</listener>
 
  <filter>
@@ -16,6 +16,7 @@
     <filter-name>guiceFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  
   
 
 </web-app>

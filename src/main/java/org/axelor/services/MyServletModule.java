@@ -7,6 +7,6 @@ public class MyServletModule extends ServletModule{
 	@Override
 	protected void configureServlets() {
 		
-		serve("/*").with(MyServlet.class);
+		//serve("/*").with(MyServlet.class);
 	}
 }
